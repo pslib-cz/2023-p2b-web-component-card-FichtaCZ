@@ -1,0 +1,43 @@
+@import url(../fonts/icomoon/style.css);
+
+body{
+    background-image: url(../images/bg.webp);
+    object-fit: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.usercard {
+    display: inline-block;
+    width: 350px;
+    box-shadow: grey .3em .5em 1em;
+    background-color: white;
+    padding: .5em;
+    margin-top: 10em;
+}
+
+.image-responsive {
+    width: 100%;
+}
+
+.usercard__head {
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+    border-radius: 100%;
+    border: .15em solid white;
+    box-shadow: 0em 0em .3em gray;
+    margin: auto;
+    margin-top: -5em;
+}
+
+.usercard__name {
+    border-bottom: 1px solid black;
+    padding-bottom: .3em;
+}
+
+.usercard__info {
+    font-size: 1.2em;
+}
+.usercard__body {
+    
+}
